@@ -27,7 +27,7 @@
 
 .display-flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 
    
 }
@@ -237,7 +237,7 @@
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
-} 
+}  
 .stat-item h2{
 
     position: absolute;
@@ -677,6 +677,7 @@ img{
 
 }
 
+
 /* OUR TEAM */
 .our-team{
     text-align: center;
@@ -875,7 +876,37 @@ img{
 
 
 
-@media screen and (max-width: 576px) {
-     
+/* @media screen and (max-width: 576px) {
+    .back{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .paragraph{
+        flex-direction: column;
+    }
+    .hero-states{
+        flex-direction: column;
+    }
+    .Exercise-card{
+        flex-direction: column;
+        width: 100%;
+        height: auto;
     
-}
+        overflow: hidden;
+    }
+    .Exercise img{
+        max-width: 5000px;
+    }
+
+    .fitness {
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 700px;
+    
+    }
+    .bmi-calculater{
+        flex-direction: column;
+        justify-content: flex-start;
+        margin-top: 900px;
+    }
+  */
